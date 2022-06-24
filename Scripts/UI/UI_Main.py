@@ -4,7 +4,7 @@ from tkinter import ttk  # Для вкладок
 import pandas as pd
 import Scripts.DB as DB
 import time
-from Scripts import parser
+from Scripts.UI import parser
 
 excel_path = parser.read_config("Test-Config.ini")
 # CONST FOR PARSER
